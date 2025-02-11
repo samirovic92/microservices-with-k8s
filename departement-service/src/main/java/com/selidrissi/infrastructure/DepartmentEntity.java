@@ -1,4 +1,4 @@
-package com.selidrissi.provider;
+package com.selidrissi.infrastructure;
 
 import com.selidrissi.domain.Department;
 import jakarta.persistence.Entity;

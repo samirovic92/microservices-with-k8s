@@ -1,4 +1,4 @@
-package com.selidrissi.provider;
+package com.selidrissi.infrastructure;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
