@@ -2,4 +2,4 @@ server:
   port: 8081
 
 department:
-  url : http://localhost:8080
+  url : ${DEPARTEMENT_URL}
