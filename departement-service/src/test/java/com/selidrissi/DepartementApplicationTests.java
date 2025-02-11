@@ -1,10 +1,10 @@
-package com.selidrissi.departementservice;
+package com.selidrissi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DepartementServiceApplicationTests {
+class DepartementApplicationTests {
 
     @Test
     void contextLoads() {
