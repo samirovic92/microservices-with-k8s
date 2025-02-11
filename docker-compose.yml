@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+
+   user-app:
+     image: user-service-app
+     container_name: user-service-app
+     build:
+       context: .
+       dockerfile: ./user-service/Dockerfile
+     ports:
+       - "8081:8081"
+     environment:
+       DEPARTEMENT_URL: "http://department-app:8080"
+
+   department-app:
+     image: department-service-app
+     container_name: department-service-app
+     build:
+       context: .
+       dockerfile: ./departement-service/Dockerfile
+     ports:
+       - "8080:8080"
+
