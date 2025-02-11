@@ -1,13 +1,15 @@
-package com.selidrissi.userservice;
+package com.selidrissi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-public class UserServiceApplication {
+@EnableFeignClients
+public class UserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(UserApplication.class, args);
 	}
 
 }
