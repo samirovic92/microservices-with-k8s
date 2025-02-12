@@ -21,16 +21,16 @@ spec:
           ports:
             - containerPort: 9001
           env:
-            - name: DEPARTMENT_NAME
+            - name: DEPARTMENT_URL
               valueFrom:
                 configMapKeyRef:
                   name: k8s-cm
-                  key: DEPARTMENT_NAME
-            - name: USER_SERVICE_NAME
+                  key: DEPARTMENT_URL
+            - name: USER_SERVICE_URL
               valueFrom:
                 configMapKeyRef:
                   name: k8s-cm
-                  key: USER_SERVICE_NAME
+                  key: USER_SERVICE_URL
 
 
 ---
@@ -39,7 +39,6 @@ kind: Service
 metadata:
   name: api-gateway-svc
 spec:
-  type: NodePort
   ports:
     - targetPort: 9001
       port: 80

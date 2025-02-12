@@ -6,12 +6,12 @@ spring:
     gateway:
       routes:
         - id: user-service
-          uri: ${USER_SERVICE_NAME:http://localhost:8081}
+          uri: ${USER_SERVICE_URL:http://localhost:8081}
           predicates:
             - Path=/user/**
 
         - id: department-service
-          uri: ${DEPARTMENT_NAME:http://localhost:8080}
+          uri: ${DEPARTMENT_URL:http://localhost:8080}
           predicates:
             - Path=/department/**
 

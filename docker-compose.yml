@@ -31,5 +31,5 @@ services:
      ports:
        - "9001:9001"
      environment:
-       DEPARTMENT_NAME: "http://department-app:8080"
-       USER_SERVICE_NAME: "http://user-app:8081"
+       DEPARTMENT_URL: "http://department-app:8080"
+       USER_SERVICE_URL: "http://user-app:8081"

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b38f7d0-9ea2-4872-baf5-e4bc90ead980" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/api-gateway-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/api-gateway-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/api-gateway-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s/config-map.yml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/config-map.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/user-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/user-deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,9 +182,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.user-app: Compose Deployment" />
-        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.DepartementApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Docker.docker-compose.yml.user-app: Compose Deployment" />
         <item itemvalue="Docker.user-service/Dockerfile" />
       </list>
     </recent_temporary>
@@ -212,7 +208,7 @@
       <workItem from="1739213348912" duration="980000" />
       <workItem from="1739268301669" duration="3264000" />
       <workItem from="1739286087578" duration="15169000" />
-      <workItem from="1739360068158" duration="609000" />
+      <workItem from="1739360068158" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="Init-commit : Create services (user, departement et apiGateway)">
       <option name="closed" value="true" />
@@ -270,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739298851066</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add APi gateway + config Docker &amp; k8s config for this service">
+      <option name="closed" value="true" />
+      <created>1739361686460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739361686460</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +298,7 @@
     <MESSAGE value="add Docker config to build the image for user &amp; Department service." />
     <MESSAGE value="add DockerCompose file" />
     <MESSAGE value="Add kubernetes config to deploy the user &amp; department service in local cluster (minikube)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add kubernetes config to deploy the user &amp; department service in local cluster (minikube)" />
+    <MESSAGE value="add APi gateway + config Docker &amp; k8s config for this service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add APi gateway + config Docker &amp; k8s config for this service" />
   </component>
 </project>
