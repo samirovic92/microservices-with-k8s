@@ -21,11 +21,11 @@ spec:
           ports:
             - containerPort: 8081
           env:
-            - name: DEPARTEMENT_URL
+            - name: DEPARTMENT_URL
               valueFrom:
                 configMapKeyRef:
                   name: k8s-cm
-                  key: DEPARTEMENT_URL
+                  key: DEPARTMENT_URL
 
 
 ---

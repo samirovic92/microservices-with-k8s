@@ -3,4 +3,7 @@ kind: ConfigMap
 metadata:
   name: k8s-cm
 data:
-  DEPARTEMENT_URL: "department-service-svc:80"
+  DEPARTMENT_URL: "department-service-svc:80"
+  DEPARTMENT_NAME: "http://department-service-svc.default.svc.cluster.local:80"
+  USER_SERVICE_URL: "user-service-svc:80"
+  USER_SERVICE_NAME: "http://user-service-svc.default.svc.cluster.local:80"
